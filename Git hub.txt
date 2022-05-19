@@ -1,0 +1,53 @@
+GIT GITHUB
+
+Comandos que se usa no git
+Mudar de pasta - 
+Listar as pastas - ls (no linux) dir (windows) - vai listar os diretórios 
+
+Criar pastas/arquivos - mkdir e nome da pasta que vai criar 
+
+Criar arquivo - entra na pasta digita o comando echo nome do arquivo > nome do arquivo e sua extensão 
+
+Deletar pastas/arquivos - del nome do arquivo (deleta o arquivo); rmdir - remove o diretório 
+no linux rm -rf nome da pasta 
+
+Comando que permite navegar nas pastas - cd/nome da pasta (igual para os dois)
+
+Retroceder - cd..
+
+Para limpar a tela - cls (windows) clear (linux) ou Ctrl + L 
+
+TAB - auto-completa o nome 
+
+git init - iniciar 
+git add - adiconar 
+git commit - salvar o código
+
+
+Criando um repositório no github
+
+1 - Em seu perfil vá em your repository e crie um novo repositório
+- atribua um nome e uma descrição ao mesmo 
+- deixe publico 
+- marque add a readme - cria arquivo como se fosse a pág inicial do repositório
+alterações no readme fazer no arquivo md criado.
+- clica em criar 
+
+2 - Na pagina de seu repositório criado  vá em code e copie as informações de https
+- Caso faça alterações vá em comitar para que seja salvo
+
+3 - Na pasta criada clica com o botão direiro e abre o git bash here
+- no console do git bash dá o primeiro comando 
+git clone e cola o endereço copiado do github
+Foi criada a nova paste
+em seguida entra na nova pasta pelo console 
+entrar na pasta cd e nome da pasta  
+
+4 - No console aplica o comando git status para verificar se precisa salavar algo 
+- se tiver em vermelho precisa realizar o passo a seguir 
+
+5 - Para adiconar a pasta realize o comando git add . ou git add -a 
+
+6 - para que seja levado ao github digita o comando git commit -m "nome da mensagem"
+
+7 - após comitar vai fazer o comando git push origin main

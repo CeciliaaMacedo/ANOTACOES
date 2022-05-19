@@ -1,0 +1,49 @@
+
+Introdução a criação de websites com HTML5 e CSS3
+
+Estrutura básica do Html: 
+
+!DOCTYPE html> Diz ao navegador o que vc está escrevendo 
+<html> Abertura da tag do elemento html todo o conteúdo estará dentro dessa tag
+    <head> dentro do elemento head termos metainformações informações que o navegador necessita que o buscador necessita
+        <meta> utilizada para trazer o charset 
+        <title> tag que coloca o título na aba do navegador 
+        </title>
+    </head> ao fechar o elemento head abrimos o elemento body
+    <body> elemento onde fica o conteúdo da pagina.
+        
+    </body>
+</html>
+
+
+Elementos do html
+<section> representa uma seção genérica de conteúdos como uma lista de arquivos 
+
+<header> Cabeçalho da página ou parte da pagina ou cabeçalho de uma section
+
+<article> conteúdo relevante dentro de sua página como o artigo de um blog
+
+<aside> conteúdo relacionado ao conteúdo principal da pagania Biografia de um autor links relacionados 
+
+<footer> rodapé da pagina ou da section
+
+<h1>-<h6> importância de um título dentro de sua página só pode haver 1 h1 por página.
+
+<p> conteúdo de textos maiores pode ser adicionado imagens, vídeos. 
+
+<a href= "" - Links sites, emails telefones 
+
+<a target= - 
+
+<img> adiciona a imagem. 
+<img src=""> elemento obrigatório e guardfa o caminho da imagem 
+<img alt= ""> não é obrigatório, porém recomenda-se para melhorar a acessibilidade 
+Se a imagem que foi adicionada no src for removida o alt servirá como descrição da imagem. 
+
+
+Listas - servem para agrupar coleção de itens 
+<ul> lista onde a ordem dos itens não é importante
+
+<ol> lista onde a ordem dos itens é importante
+
+<li> item da lista  
