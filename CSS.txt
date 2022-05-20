@@ -1,0 +1,200 @@
+Introdução ao CSS3
+Seletores são elementos do html
+E dentro de um par de chaves {} temos as declarações que é formada por propriedade e valor
+
+a,p,h1,h3 {
+color: blue;
+font-size: 14px
+}
+
+Para escolher em qual header que modificar 
+id e class pode representar qualquer tipo de elemento 
+No CSS uma classe é precedida por um ponto .
+.header {
+padding: 10px;
+}
+
+E o id precedido por um # ele só pode ser usado 1 vez na mesma página 
+#header {
+padding: 15 px;
+}
+
+Boxe model
+margin - espaçamento entre elementos 
+border - circundão o padding e o content e pode ser alterada (largura e cor)
+padding - espaçamento entre a borda e o conteudo 
+content - é o que o bloco representa (texto, imagem, vídeo)
+
+Estilizando os elementos:
+
+Padding - tamanhos diferentes para cada lado 
+
+*valores para as partes superior e inferior (10) esquerdo e direito (5)
+.post {
+padding: 10px 5px;
+}
+
+* um valor para cada lado (15topo), (10 direita),(5 inferior) e (0 esquerda)
+.post {
+padding: 15px 10px 5px 0;
+}
+
+*usando propriedades especificas para cada lado
+.post{
+padding-top: 15px; topo
+padding-right: 10px; direita
+padding-bottom: 5px; inferior
+padding-left: 0; esquerda
+}
+
+Propriedade background -mudar a cor do funfo, colocar uma imagem, alterar posicionamento da imagem
+.post{
+background-color: green;
+background-image: url("bg.png");
+background-position: top;
+}
+
+Mudar a cor de fundo:
+background-color: green; (usando o nome da cor em inglês)
+background-color: #008800; (usando o valor hexadecimal)
+background: #008000; (usando apenas o background)
+
+Border - borda
+largura - pode ser em centimetros, pixels, milimetros
+cor - blue,#0000ff
+estillo - sólida, pontilhada, tracejada 
+
+.post {
+border: 3px solid blue;
+border-top: 2px dotted green; pontilhada 
+border-right: 4px dashed pink; tracejada
+
+Estilização de cada lado de uma borda 
+.post {
+border-top: 2px dotted green;
+border-right: 4px dashed pink
+border-bottom: 1px solid purple
+border-left: 4px dotted cyan;
+}
+
+Separando
+.post {
+border-width: 3px;
+border-color: #505050;
+border-style: solid;
+}
+
+Juntando os lados com os aspectos de uma borda
+.post {
+border-top-width: 3px;
+border-top-color: blue;
+border-top style: solid;
+
+BORDER-RADIUS - permite arredondar as pontas dos elementos 
+border-radius: 10px
+
+
+Estilizando o texto
+
+*font-family
+
+#title {
+font-family: Verdana;
+}
+
+Adicionando 2 fontes,pois caso alguma não funcione temos a outra como backup
+.post_title {
+font-family: Verdana, Arial; 
+}
+
+Alterando o tamanho da fonte 
+#title{
+font-size: 30px;
+}
+
+.post_title {
+font-size: 18px;
+}
+
+Alterando o estilo da fonte 
+
+#title{
+font-style:normal;
+}
+
+.subtitle {
+font-style: italic;
+}
+
+Alterando o peso do texto
+
+#title{
+font-weigth: normal;
+}
+
+.subtitle {
+font-weigth: bold; (negrito)
+}
+
+Alterando o texto entre maiúscula e minúscula 
+
+#title{
+text-transform: uppercase; ciaxa alta 
+}
+
+.subtitle{
+text-transform: lowercase; caixa baixa 
+}
+
+.post_title{
+text-transform: capitalize; primeira letra de cada palavra em maiúscula
+}
+
+Dando destaque ao texto, pois coloca linhas 
+
+#title{
+text-decoration: underline; linha abaixo 
+}
+
+.subtitletitle{
+text-decoration: overline; linha acima 
+}
+
+.post_title{
+text-decoration: line-through; linha no centro 
+}
+
+Listas ordenadas e não ordenadas alterando o marcador 
+
+ul{
+list-style-type: square; (quadrado)
+}
+
+ol{
+list-style-type: upper-roman; (número romano)
+}
+
+
+ul{
+list-style-type: "\1F44D"; (simbolo - emotion joinha)
+}
+
+Podemos utilizar imagens nas listas também 
+
+ul{
+list-style-image: url("endereço da imagem");
+
+}
+
+
+Dimensão e alinhamento
+
+width - largura 
+heigth - altura
+
+max-width - largura máxima 
+max-heigth - altura máxima 
+
+margin - alinhar elemento automáticamente 
+
+text align - alinhar texto 
